@@ -1,0 +1,55 @@
+*** Creating Trace Output File 'WatchDemo.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"croutine.o"'
+### List of Objects: adding '"list.o"'
+### List of Objects: adding '"queue.o"'
+### List of Objects: adding '"tasks.o"'
+### List of Objects: adding '"timers.o"'
+### List of Objects: adding '"heap_2.o"'
+### List of Objects: adding '"port.o"'
+### List of Objects: adding '"debuguart.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '".\startup.o"'
+### List of Objects: adding '"lcdtask.o"'
+### List of Objects: adding '"lcddisplay.o"'
+### List of Objects: adding '"messagequeues.o"'
+### List of Objects: adding '"lcdbuffer.o"'
+### List of Objects: adding '"bufferpool.o"'
+### List of Objects: adding '"huffmanengtext.o"'
+### List of Objects: adding '"statistics.o"'
+### List of Objects: adding '"fonts.o"'
+### List of Objects: adding '"icons.o"'
+### List of Objects: adding '"idlepage.o"'
+### List of Objects: adding '"idlepagemain.o"'
+### List of Objects: adding '"display.o"'
+### List of Objects: adding '"onesecondtimers.o"'
+### List of Objects: adding '"commandtask.o"'
+### List of Objects: adding '"crc16.o"'
+### List of Objects: adding '"utilities.o"'
+### List of Objects: adding '"bluetoothspp.o"'
+### List of Objects: adding '"background.o"'
+### List of Objects: adding '"framebuffer.o"'
+### List of Objects: adding '"buttons.o"'
+### List of Objects: adding '"idlepageqrcode.o"'
+### List of Objects: adding '"idlepagegameoflife.o"'
+### List of Objects: adding '"..\Hardware\DriverLib\driverlib.lib"'
+### List of Objects: adding '"hal_rtc.o"'
+### List of Objects: adding '"hal_battery.o"'
+### List of Objects: adding '"rit128x96x4.o"'
+### List of Objects: adding '"hal_buttons.o"'
+### List of Objects: adding '"hal_timer.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "croutine.o" "list.o" "queue.o" "tasks.o" "timers.o" "heap_2.o" "port.o" "debuguart.o" "main.o" ".\startup.o" "lcdtask.o" "lcddisplay.o" "messagequeues.o" "lcdbuffer.o" "bufferpool.o" "huffmanengtext.o" "statistics.o" "fonts.o" "icons.o" "idlepage.o" "idlepagemain.o" "display.o" "onesecondtimers.o" "commandtask.o" "crc16.o" "utilities.o" "bluetoothspp.o" "background.o" "framebuffer.o" "buttons.o" "idlepageqrcode.o" "idlepagegameoflife.o" "..\Hardware\DriverLib\driverlib.lib" "hal_rtc.o" "hal_battery.o" "rit128x96x4.o" "hal_buttons.o" "hal_timer.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\WatchDemo.map" -o "WatchDemo.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'WatchDemo.axf'
+### ADS-LD Command File: 'WatchDemo.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'WatchDemo.lnp', Handle=0x00000250
+### Writing '.lnp' file
+### ADS-LD Command file 'WatchDemo.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
